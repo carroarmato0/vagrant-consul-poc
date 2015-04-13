@@ -16,3 +16,5 @@
   :paths:
     - /v1/catalog/service
     - /v1/catalog/node
+  :failure: graceful
+  :ignore_404: true
