@@ -21,9 +21,11 @@ The consul servers will start an election expecting 4 nodes to form a cluster.
 The puppet nodes will be able to lookup data from Consul thanks to a hiera pluggin.
 
 On the first node, consul01 (192.168.33.21), the Consul UI is made available to view its state. ( http://192.168.33.21:8500/ui/ )
+
 You will start seeing entries in the dashboard once Consul has finished bootstrapping the cluster when enough of them have joined.
 
 The SSH service is being published on all servers and to demonstrate the fetching of dynamic information into Puppet, the nodes will notify the IP addresses of the published SSH services in Consul.
+You will start seeing the notify the next time your provision after the Consul cluster has been formed.
 
 ## How to
 
