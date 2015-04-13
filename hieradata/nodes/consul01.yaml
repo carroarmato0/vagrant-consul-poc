@@ -1,0 +1,5 @@
+---
+# Enable Consul UI
+consul::config_hash:
+  ui_dir: '/opt/consul/ui'
+  client_addr: 0.0.0.0

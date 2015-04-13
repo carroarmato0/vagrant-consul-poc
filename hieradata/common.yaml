@@ -1,0 +1,15 @@
+---
+consul::config_defaults:
+  datacenter: laptop
+  log_level: INFO
+  node_name: %{::fqdn}
+  data_dir: '/opt/consul'
+  bind_addr: %{::ipaddress_eth1}
+  server: true
+  start_join:
+    - 192.168.33.21
+  bootstrap_expect: 4
+
+consul::services:
+  sshd:
+    port: 22

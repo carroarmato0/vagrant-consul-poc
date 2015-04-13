@@ -1,0 +1,12 @@
+[submodule "modules/consul"]
+	path = modules/consul
+	url = https://github.com/solarkennedy/puppet-consul.git
+[submodule "modules/hiera-consul"]
+	path = modules/hiera-consul
+	url = https://github.com/lynxman/hiera-consul.git
+[submodule "modules/staging"]
+	path = modules/staging
+	url = https://github.com/nanliu/puppet-staging.git
+[submodule "modules/stdlib"]
+	path = modules/stdlib
+	url = https://github.com/puppetlabs/puppetlabs-stdlib.git
